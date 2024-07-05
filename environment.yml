@@ -11,6 +11,7 @@ dependencies:
   - flaky=3.5.3
   - libgcc
   - numpy=1.16.3
+  - more-itertools=9.1.0
   - openpyxl=2.6.1
   - pandas=0.24.2
   - pillow=6.2.0
@@ -37,6 +38,7 @@ dependencies:
       - kaleido==0.2.1
       - opencv-python==4.1.0.25
       - pyopengl==3.1.0
+      - pyglet==1.5.29
       - ray==0.7.0
       - redis==2.10.6
       - tensorboard==2.1.1
@@ -46,5 +48,5 @@ dependencies:
       - gym[box2d]
       - gym[classic_control]
       - pybullet==2.8.4
-      - roboschool==1.0.46
+      - roboschool==1.0.48
       - atari-py==0.2.6
