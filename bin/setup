@@ -8,17 +8,17 @@
 set -e
 trap "exit" INT
 
-read -p "
-------------------------------------------------
-
-Welcome to the SLM Lab setup script;
-This will invoke sudo; alternatively,
-inspect bin/setup_ubuntu or bin/setup_macOS and run the lines manually.
-
-Press enter to continue, Ctrl+c to quit:
-
-------------------------------------------------
-"
+#read -p "
+#------------------------------------------------
+#
+#Welcome to the SLM Lab setup script;
+#This will invoke sudo; alternatively,
+#inspect bin/setup_ubuntu or bin/setup_macOS and run the lines manually.
+#
+#Press enter to continue, Ctrl+c to quit:
+#
+#------------------------------------------------
+#"
 
 # copy config file if not already exist
 BIN_DIR=`pwd`/bin
